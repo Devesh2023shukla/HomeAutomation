@@ -312,3 +312,33 @@ h1 {
 #feature .fe-box:nth-child(6) h4 {
   background-color: #7ef4ad;
 }
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  #header1 img {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  #product1 .pro {
+    width: 48%;
+    min-width: auto;
+  }
+}
+
+/* For screens smaller than 576px (phones) */
+@media (max-width: 576px) {
+  #header1 img {
+    width: 200px;
+    height: auto;
+  }
+
+  #product1 .pro {
+    width: 100%;
+  }
+
+  .section-p1 {
+    padding: 20px;
+  }
+}
+
